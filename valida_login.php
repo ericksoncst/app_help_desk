@@ -24,6 +24,8 @@
 	if ($usuario_autenticado) {
 		echo 'Usuário autenticado com sucesso!';
 		$_SESSION['autenticado'] = 'SIM';
+		$_SESSION['valor1'] = 'X';
+		$_SESSION['valor3'] = 'Y';
 		header('Location: home.php');
 	} else {
 		$_SESSION['autenticado'] = 'NAO';

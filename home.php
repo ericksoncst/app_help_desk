@@ -36,10 +36,16 @@
             <div class="card-body">
               <div class="row">
                 <div class="col-6 d-flex justify-content-center">
-                  <img src="formulario_abrir_chamado.png" width="70" height="70">
+                  <a href="abrir_chamado.php">
+                    <img src="formulario_abrir_chamado.png" width="70" height="70">
+                    Abrir chamado
+                  </a>
                 </div>
                 <div class="col-6 d-flex justify-content-center">
-                  <img src="formulario_consultar_chamado.png" width="70" height="70">
+                  <a href="consultar_chamado.php">
+                    <img src="formulario_consultar_chamado.png" width="70" height="70">
+                    Consultar chamado
+                  </a>
                 </div>
               </div>
             </div>
